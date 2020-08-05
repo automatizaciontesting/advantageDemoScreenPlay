@@ -10,7 +10,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Managed;
-import co.com.chami.certificacion.advantagedemo.tasks.LoginAdvantageDemo;
+import co.com.chami.certificacion.advantagedemo.tasks.LoginAdvantageDemoTask;
 import co.com.chami.certificacion.advantagedemo.questions.ValidarLoginUsuario;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
@@ -34,7 +34,7 @@ public class AdvantageDemoLoginStepDefinitions {
 
 	@When("^busca la opcion de loguin e ingresa '(.*)' y '(.*)'$")
 	public void buscaLaOpcionDeLoguinEIngresaUsuarioYClave(String usuario, String clave) {
-		chami.attemptsTo(LoginAdvantageDemo.logueoUsuario(usuario, clave));
+		chami.attemptsTo(LoginAdvantageDemoTask.logueoUsuario(usuario, clave));
 
 	}
 

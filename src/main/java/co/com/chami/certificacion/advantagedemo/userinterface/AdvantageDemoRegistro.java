@@ -4,13 +4,13 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class AdvantageDemoRegistro {
 	public static final Target ICONO_USUARIO = Target.the("Icono para acceder opciones usuario").
-			locatedBy("//a[@id='hrefUserIcon']");
+			locatedBy("//*[@id='menuUser']");
 	
 	public static final Target BOTON_NUEVA_CUENTA = Target.the("Boton crear nueva cuenta").
 			locatedBy("//a[@class='create-new-account ng-scope']");
       
       public static final Target CAMPO_USERNAME = Target.the("Campo ingresar userName").
-			locatedBy("//a[@class='create-new-account ng-scope']");
+			locatedBy("//*[@name='usernameRegisterPage']");
 	
 	public static final Target CAMPO_EMAIL = Target.the("Campo ingresar Email").
 			locatedBy("//input[@name='emailRegisterPage']");
@@ -45,10 +45,17 @@ public class AdvantageDemoRegistro {
 	public static final  Target CAMPO_CODIGOPOSTAL = Target.the("Campo para ingresar codigo postal").
 			locatedBy("//input[@name='postal_codeRegisterPage']");
 	
-  public static final Target  CHECKBOX_OFFERS = Target.the("checkbox seleccionable").
+	public static final Target  CHECKBOX_OFFERS = Target.the("checkbox seleccionable").
 			locatedBy("//input[@name='allowOffersPromotion']");
 	
+	public static final Target CHECK_I_AGREE = Target.the("Aceptar acuerdo")
+			.locatedBy("//*[@name='i_agree']");
+	
 	public static final Target  BOTON_REGISTER = Target.the("Boton registro").
-			locatedBy("//button[@class='sec-sender-a invalid ng-scope']");
+			locatedBy("//*[@id='register_btnundefined']");
+	
+	public static final Target LABEL_ACCOUNT_SUCCESSED = Target.the("Valida la creación de la cuenta correcta").
+			locatedBy("//*[@class='hi-user containMiniTitle ng-binding']");
   
+
 }

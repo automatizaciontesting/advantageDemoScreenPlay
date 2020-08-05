@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Login webpage AdvantageDemo" skipped="0" tests="1" time="27.6" timestamp="2020-08-04 07:54:20"><testcase name="Loguin en la pagina advantagedemo"><error message="Expected condition failed: waiting for By.xpath: //span[@class='hi-user containMiniTitle ng-binding'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DESKTOP-7KJS386', ip: '10.80.32.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //span[@class='hi-user containMiniTitle ng-binding'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7KJS386', ip: '10.80.32.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //span[@class='hi-user containMiniTitle ng-binding'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7KJS386', ip: '10.80.32.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown&#13;
+co.com.chami.certificacion.advantagedemo.stepdefinitions.AdvantageDemoLoginStepDefinitions.elUsuarioPodraVerUsuarioEnPantalla(AdvantageDemoLoginStepDefinitions.java:43)&#13;
+✽.el usuario podra ver 'hervin23' en pantalla(src/test/resources/features/login.feature:8)&#13;
+</system-err></testcase></testsuite>

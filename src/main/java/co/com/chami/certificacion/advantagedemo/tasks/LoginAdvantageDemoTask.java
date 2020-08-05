@@ -8,11 +8,11 @@ import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import co.com.chami.certificacion.advantagedemo.userinterface.AdvantageDemoLogin;
 
-public class LoginAdvantageDemo implements Task{
+public class LoginAdvantageDemoTask implements Task{
 	private String usuario ;
 	private String clave ;
 	
-	public LoginAdvantageDemo(String usuario, String clave) {
+	public LoginAdvantageDemoTask(String usuario, String clave) {
 		this.usuario = usuario;
 		this.clave = clave;
 	}
@@ -29,7 +29,7 @@ public class LoginAdvantageDemo implements Task{
 		
 	}
 	
-	public static LoginAdvantageDemo logueoUsuario(String usuario, String clave) {
-		return new LoginAdvantageDemo(usuario, clave);
+	public static LoginAdvantageDemoTask logueoUsuario(String usuario, String clave) {
+		return new LoginAdvantageDemoTask(usuario, clave);
 	}
 }

@@ -4,5 +4,5 @@ Feature: Login webpage AdvantageDemo
   @tag2
   Scenario: Loguin en la pagina advantagedemo
     Given el usuario abre la pagina advantagedemo
-    When busca la opcion de loguin e ingresa 'luis.vegliante' y 'Lucho2011'
-    Then el usuario podra ver 'luis.vegliante' en pantalla
+    When busca la opcion de loguin e ingresa 'hervin23' y 'Ingreso2020'
+    Then el usuario podra ver 'hervin23' en pantalla
